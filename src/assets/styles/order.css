@@ -1,0 +1,26 @@
+.order-page {
+    padding: 20px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .order-summary {
+    margin-top: 20px;
+  }
+  
+  .order-status {
+    font-weight: bold;
+  }
+  
+  .status-shipped {
+    color: green;
+  }
+  
+  .status-pending {
+    color: orange;
+  }
+  

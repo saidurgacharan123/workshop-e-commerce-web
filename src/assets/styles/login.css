@@ -1,0 +1,33 @@
+/* Centering the Login form */
+.login-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .login-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+  }
+  
+  .register-button {
+    margin-top: 10px;
+  }
+  
+  /* Error message styling */
+  .MuiFormHelperText-root {
+    color: red;
+  }
+  

@@ -1,0 +1,29 @@
+.user-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .user-navbar {
+    color: #fff;
+    position: sticky !important;
+    top: 0% !important;
+    z-index: 1000 !important;
+  }
+  
+  .user-navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .user-navbar a:hover {
+    color: #ff5722;
+  }
+  
+  .user-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
